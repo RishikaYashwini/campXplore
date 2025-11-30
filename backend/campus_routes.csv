@@ -1,0 +1,89 @@
+route_name,path_sequence,path_type,accessibility
+AIT Library to Boys Hostel,B:15 > W:110 > W:111 > B:17,walkway,TRUE
+Boys Hostel to AIT Library,B:17 > W:111 > W:110 > B:15,walkway,TRUE
+Main Academic Building(A Block) to College Canteen/Cafeteria,B:14 > W:102 > W:104 > W:103 > W:105 > B:19,walkway,TRUE
+College Canteen/Cafeteria to Main Academic Building(A Block),B:19 > W:105 > W:103 > W:104 > W:102 > B:14,walkway,TRUE
+Main Gate (Dr. AIT) to Main Academic Building(A Block),B:13 > W:105 > W:103 > W:104 > W:102 > B:14,walkway,TRUE
+Main Academic Building(A Block) to Main Gate (Dr. AIT),B:14 > W:102 > W:104 > W:103 > W:105 > B:13,walkway,TRUE
+Main Gate (Dr. AIT) to AIT Library,B:13 > W:105 > W:110 > B:15,walkway,TRUE
+AIT Library to Main Gate (Dr. AIT),B:15 > W:110 > W:105 > B:17,walkway,TRUE
+Main Gate (Dr. AIT) to Silver Jubilee Building (SJB),B:13 > W:105 > W:106 > W:108 > B:16,walkway,TRUE
+Silver Jubilee Building (SJB) to Main Gate (Dr. AIT),B:16 > W:108 > W:106 > W:105 > B:13,walkway,TRUE
+Main Gate (Dr. AIT) to Boys Hostel,B:13 > W:105 > W:110 > W:111 > B:17,walkway,TRUE
+Boys Hostel to Main Gate (Dr. AIT),B:17 > W:111 > W:110 > W:105 > B:13,walkway,TRUE
+Main Gate (Dr. AIT) to Girls Hostel,B:13 > W:105 > W:106 > W:108 > W:109 > B:18,walkway,TRUE
+Girls Hostel to Main Gate (Dr. AIT),B:18 > W:109 > W:108 > W:106 > W:105 > B:13,walkway,TRUE
+Main Gate (Dr. AIT) to College Canteen/Cafeteria,B:13 > W:105 > B:19,walkway,TRUE
+College Canteen/Cafeteria to Main Gate (Dr. AIT),B:19 > W:105 > B:13,walkway,TRUE
+Main Gate (Dr. AIT) to Rock Garden,B:13 > W:105 > B:20,walkway,TRUE
+Rock Garden to Main Gate (Dr. AIT),B:20 > W:105 > B:13,walkway,TRUE
+Main Gate (Dr. AIT) to Sports Ground,B:13 > W:105 > W:110 > W:111 > W:112 > B:21,walkway,TRUE
+Sports Ground to Main Gate (Dr. AIT),B:21 > W:112 > W:111 > W:110 > W:105 > B:13,walkway,TRUE
+Main Gate (Dr. AIT) to Bank/ATM Point,B:13 > B:22,walkway,TRUE
+Bank/ATM Point to Main Gate (Dr. AIT),B:22 >  B:13,walkway,TRUE
+Main Gate to Med. Electronics/Clubs/(B Block),B:13 > W:105 > W:103 > W:104 > W:102 > B:23,walkway,TRUE
+Med. Electronics/Clubs/(B Block) to Main Gate,B:23 > W:102 > W:104 > W:103 > W:105 > B:13,walkway,TRUE
+Main Gate to CSE/ECE/EEE(C Block),B:13 > W:105 > W:103 > W:104 > W:102 > B:24,walkway,TRUE
+CSE/ECE/EEE(C Block) to Main Gate,B:24 > W:102 > W:104 > W:103 > W:105 > B:13,walkway,TRUE
+Main Gate to ISE/Humanities/MCA/MBA/EI(D Block),B:13 > W:105 > W:103 > W:104 > W:102 > B:25,walkway,TRUE
+ISE/Humanities/MCA/MBA/EI(D Block) to Main Gate,B:25 > W:102 > W:104 > W:103 > W:105 > B:13,walkway,TRUE
+Main Gate to JPN Auditorium,B:13 > W:105 > W:103 > W:104 > W:102 > B:26,walkway,TRUE
+JPN Auditorium to Main Gate,B:26 > W:102 > W:104 > W:103 > W:105 > B:13,walkway,TRUE
+Main Gate to Research & Development Center,B:13 > W:105 > W:106 > W:108 > W:109 > B:27,walkway,TRUE
+Research & Development Center to Main Gate,B:27 > W:109 > W:108 > W:106 > W:105 > B:13,walkway,TRUE
+Main Gate to Data and Computer Center,B:13 > W:105 > W:106 > W:108 > W:109 > W:113 > B:28,walkway,TRUE
+Data and Computer Center to Main Gate,B:28 > W:113 > W:109 > W:108 > W:106 > W:105 > B:13,walkway,TRUE
+Main Gate to Indoor Sports Complex,B:13 > W:105 > W:110 > W:111 > B:29,walkway,TRUE
+Indoor Sports Complex to Main Gate,B:29 > W:111 > W:110 > W:105 > B:13,walkway,TRUE
+Main Gate to Dr. AIT Stationery Shop,B:13 > W:105 > W:106 > W:108 > B:30,walkway,TRUE
+Dr. AIT Stationery Shop to Main Gate,B:30 > W:108 > W:106 > W:105 > B:13,walkway,TRUE
+Main Gate to MTR,B:13 > W:105 > W:106 > W:108 > W:109 > W:113 > W:114 > W:115 > W:116 > B:31,walkway,TRUE
+MTR to Main Gate,B:31 > W:116 > W:115 > W:114 > W:113 > W:109 > W:108 > W:106 > W:105 > B:13,walkway,TRUE
+Main Gate to AIT Amphitheatre,B:13 > W:105 > W:103 > W:104 > W:102 > B:32,walkway,TRUE
+AIT Amphitheatre to Main Gate,B:32 > W:102 > W:104 > W:103 > W:105 > B:13,walkway,TRUE
+Main Gate to Dr. BR Ambedkar Statue,B:13 > W:105 > W:103 > W:104 > W:102 > B:33,walkway,TRUE
+Dr. BR Ambedkar Statue to Main Gate,B:33 > W:102 > W:104 > W:103 > W:105 > B:13,walkway,TRUE
+Main Gate to Dr. AIT Student Parking,B:13 > W:105 > B:34,walkway,TRUE
+Dr. AIT Student Parking to Main Gate,B:34 > W:105 > B:13,walkway,TRUE
+Main Gate to Gate II (Dr. AIT),B:13 > W:105 > W:103 > W:104 > W:102 > W:101 > B:35,walkway,TRUE
+Gate II (Dr. AIT) to Main Gate,B:35 > W:101 > W:102 > W:104 > W:103 > W:105 > B:13,walkway,TRUE
+Main Academic Building(A Block) to AIT Library,B:14 > W:102 > W:104 > W:103 > W:105 > W:110 > B:15,walkway,TRUE
+AIT Library to Main Academic Building(A Block),B:15 > W:110 > W:105 > W:103 > W:104 > W:102 > B:14,walkway,TRUE
+Main Academic Building(A Block) to Silver Jubilee Building (SJB),B:14 > W:102 > W:104 > W:103 > W:105 > W:106 > W:108 > B:16,walkway,TRUE
+Silver Jubilee Building (SJB) to Main Academic Building(A Block),B:16 > W:108 > W:106 > W:105 > W:103 > W:104 > W:102 > B:14,walkway,TRUE
+Main Academic Building(A Block) to Boys Hostel,B:14 > W:102 > W:104 > W:103 > W:105 > W:110 > W:111 > B:17,walkway,TRUE
+Boys Hostel to Main Academic Building(A Block),B:17 > W:111 > W:110 > W:105 > W:103 > W:104 > W:102 > B:14,walkway,TRUE
+Main Academic Building(A Block) to Girls Hostel,B:14 > W:102 > W:104 > W:103 > W:107 > W:106 > W:108 > W:109 > B:18,walkway,TRUE
+Girls Hostel to Main Academic Building(A Block),B:18 > W:109 > W:108 > W:106 > W:107 > W:103 > W:104 > W:102 > B:14,walkway,TRUE
+Main Academic Building(A Block) to Rock Garden,B:14 > W:102 > W:104 > W:103 > W:105 > B:20,walkway,TRUE
+Rock Garden to Main Academic Building(A Block),B:20 > W:105 > W:103 > W:104 > W:102 > B:14,walkway,TRUE
+Main Academic Building(A Block) to Sports Ground (Cricket/Football),B:14 > W:102 > W:104 > W:103 > W:105 > W:110 > W:111 > W:112 > B:21,walkway,TRUE
+Sports Ground (Cricket/Football) to Main Academic Building(A Block),B:21 > W:112 > W:111 > W:110 > W:105 > W:103 > W:104 > W:102 > B:14,walkway,TRUE
+Main Academic Building(A Block) to Bank/ATM Point,B:14 > W:102 > W:104 > W:103 > W:105 > B:13 > B:22,walkway,TRUE
+Bank/ATM Point to Main Academic Building(A Block),B:22 >  B:13 > W:105 > W:103 > W:104 > W:102 > B:14,walkway,TRUE
+Main Academic Building(A Block) to Med. Electronics/Clubs/(B Block),B:14 > B:23,walkway,TRUE
+Med. Electronics/Clubs/(B Block) to Main Academic Building(A Block),B:23 > B:14,walkway,TRUE
+Main Academic Building(A Block) to CSE/ECE/EEE(C Block),B:14 > B:24,walkway,TRUE
+CSE/ECE/EEE(C Block) to Main Academic Building(A Block),B:24 > B:14,walkway,TRUE
+Main Academic Building(A Block) to ISE/Humanities/MCA/MBA/EI(D Block),B:14 > B:25,walkway,TRUE
+ISE/Humanities/MCA/MBA/EI(D Block) to Main Academic Building(A Block),B:25 > B:14,walkway,TRUE
+Main Academic Building(A Block) to JPN Auditorium,B:14 > B:26,walkway,TRUE
+JPN Auditorium to Main Academic Building(A Block),B:26 > B:14,walkway,TRUE
+Main Academic Building(A Block) to Research & Development Center,B:14 > W:102 > W:104 > W:103 > W:107 > W:106 > W:108 > W:109 > B:27,walkway,TRUE
+Research & Development Center to Main Academic Building(A Block),B:27 > W:109 > W:108 > W:106 > W:107 > W:103 > W:104 > W:102 > B:14,walkway,TRUE
+Main Academic Building(A Block) to Data and Computer Center,B:14 > W:102 > W:104 > W:103 > W:107 > W:106 > W:108 > W:109 > W:113 > B:28,walkway,TRUE
+Data and Computer Center to Main Academic Building(A Block),B:28 > W:113 > W:109 > W:108 > W:106 > W:107 > W:103 > W:104 > W:102 > B:14,walkway,TRUE
+Main Academic Building(A Block) to Indoor Sports Complex,B:14 > W:102 > W:104 > W:103 > W:105 > W:110 > W:111 > B:29,walkway,TRUE
+Indoor Sports Complex to Main Academic Building(A Block),B:29 > W:111 > W:110 > W:105 > W:103 > W:104 > W:102 > B:14,walkway,TRUE
+Main Academic Building(A Block) to Dr. AIT Stationery Shop,B:14 > W:102 > W:104 > W:103 > W:107 > W:106 > W:108 > B:30,walkway,TRUE
+Dr. AIT Stationery Shop to Main Academic Building(A Block),B:30 > W:108 > W:106 > W:107 > W:103 > W:104 > W:102 > B:14,walkway,TRUE
+Main Academic Building(A Block) to MTR,B:14 > W:102 > W:104 > W:103 > W:107 > W:106 > W:108 > W:109 > W:113 > W:114 > W:115 >W:116 > B:31,walkway,TRUE
+MTR to Main Academic Building(A Block),B:31 > W:116 >W:115 > W:114 > W:113 > W:109 > W:108 > W:106 > W:107 > W:103 > W:104 > W:102 > B:14,walkway,TRUE
+Main Academic Building(A Block) to AIT Amphitheatre,B:14 > B:32,walkway,TRUE
+AIT Amphitheatre to Main Academic Building(A Block),B:32 > B:14,walkway,TRUE
+Main Academic Building(A Block) to Dr. BR Ambedkar Statue,B:14 > W:102 > B:33,walkway,TRUE
+Dr. BR Ambedkar Statue to Main Academic Building(A Block),B:33 > W:102 > B:14,walkway,TRUE
+Main Academic Building(A Block) to Dr. AIT Student Parking,B:14 > W:102 > W:104 > W:103 > B:34,walkway,TRUE
+Dr. AIT Student Parking to Main Academic Building(A Block),B:34 > W:103 > W:104 > W:102 > B:14,walkway,TRUE
+Main Academic Building(A Block) to Gate II (Dr. AIT),B:14 > W:102 > W:101 > B:35,walkway,TRUE
+Gate II (Dr. AIT) to Main Academic Building(A Block),B:35 > W:101 > W:102 > B:14,walkway,TRUE

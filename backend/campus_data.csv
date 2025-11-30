@@ -1,0 +1,24 @@
+ID,Name,Description,Latitude (N),Longitude (E),Type
+1001,Main Gate (Dr. AIT),Main entrance to the campus on Outer Ring Road,12.964298,77.505204,gate
+1002,Main Academic Building(A Block),"Main administrative building housing principal office, accounts, and admission department. Located at campus center.",12.963586,77.505642,building
+1003,AIT Library,"Central library with 72,983 volumes, digital library with DELNET access, and reading halls",12.964715,77.505666,building
+1004,Silver Jubilee Building (SJB),"Major block housing departments like Civil, Mechanical & Aeronautical",12.964171,77.506405,building
+1005,Boys Hostel,Boys hostel with accommodation for 900 students. Includes mess and recreation facilities.,12.96515,77.505381,hostel
+1006,Girls Hostel,Girls hostel with accommodation for 600 students with 24/7 security,12.964461,77.506304,hostel
+1007,College Canteen/Cafeteria,Central cafeteria serving vegetarian food and snacks to students and faculty,12.964593,77.505315,facility
+1008,Rock Garden,Landscaped area on campus for students,12.964118,77.505539,area
+1009,Sports Ground (Cricket/Football),Main outdoor playing field,12.965348,77.506148,facility
+1010,Bank/ATM Point,Location of the bank and ATM service on campus,12.964465,77.505026,facility
+1011,Med. Electronics/Clubs/(B Block),Academic Block B (Houses Medical Electronics and other depts.),12.963298,77.50573,building
+1012,CSE/ECE/EEE(C Block),"Academic Block C (Houses CSE, ECE and EEE)",12.9631,77.506128,building
+1013,ISE/Humanities/MCA/MBA/EI(D Block),"Academic Block D (Houses ISE, MCA, MBA, EI & Humanities)",12.96363,77.506469,building
+1014,JPN Auditorium,"Main auditorium for events, seminars, cultural activities and placement drives",12.963494,77.505957,facility
+1015,Research & Development Center,Research center with TEQIP funding for advanced research and development projects,12.964615,77.506663,facility
+1016,Data and Computer Center,Centralized IT and Data Center Facilities,12.964724,77.506367,facility
+1017,Indoor Sports Complex,Indoor sports complex with gymnasium,12.964986,77.506032,facility
+1018,Dr. AIT Stationery Shop,Campus society/store for books and essentials,12.964036,77.506257,facility
+1019,MTR (Food Area),Possible specific food joint/mess inside campus,12.964918,77.507303,facility
+1020,AIT Amphitheatre,Open area for events ,12.963725,77.505807,area
+1021,Dr. BR Ambedkar Statue,"The statue is a tribute as well as serves as a landmark where faculty, students & guests pay there respect during events or campus programs",12.963136,77.50545,area
+1022,Dr. AIT Student Parking,Parking lot for motorcycles,12.964127,77.50521,facility
+1023,Gate II (Dr. AIT),Second entrance to the campus on Outer Ring Road,12.962544,77.505049,gate

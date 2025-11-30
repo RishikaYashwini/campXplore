@@ -1,0 +1,344 @@
+{
+  "timestamp": "2025-11-16T16:42:48.566836",
+  "buildings": [
+    {
+      "building_id": 1,
+      "name": "Main Administrative Block",
+      "code": "ADMIN",
+      "latitude": 12.963514,
+      "longitude": 77.505695,
+      "description": "Main administrative building housing principal office, accounts, and admission department. Located at campus center.",
+      "floor_count": 3,
+      "facilities": [
+        "Principal Office",
+        "Admission Office",
+        "Accounts Department",
+        "Staff Rooms",
+        "Reception"
+      ],
+      "image_url": null
+    },
+    {
+      "building_id": 2,
+      "name": "Central Library",
+      "code": "LIB",
+      "latitude": 12.964675,
+      "longitude": 77.50557,
+      "description": "Central library with 72,983 volumes, digital library with DELNET access, and reading halls",
+      "floor_count": 3,
+      "facilities": [
+        "Reading Hall",
+        "Digital Library",
+        "DELNET Access",
+        "Study Rooms",
+        "Book Collection"
+      ],
+      "image_url": null
+    },
+    {
+      "building_id": 3,
+      "name": "Civil Engineering Block",
+      "code": "CIVIL",
+      "latitude": 12.964282,
+      "longitude": 77.506511,
+      "description": "Civil Engineering department with material testing, surveying, and concrete labs",
+      "floor_count": 3,
+      "facilities": [
+        "Classrooms",
+        "Material Testing Lab",
+        "Surveying Lab",
+        "Concrete Lab",
+        "Faculty Rooms"
+      ],
+      "image_url": null
+    },
+    {
+      "building_id": 4,
+      "name": "Computer Science Block",
+      "code": "CSE",
+      "latitude": 12.96326,
+      "longitude": 77.506344,
+      "description": "Computer Science and Engineering department with advanced computer labs and project facilities",
+      "floor_count": 4,
+      "facilities": [
+        "Computer Labs",
+        "Project Lab",
+        "Classrooms",
+        "Server Room",
+        "Faculty Cabins"
+      ],
+      "image_url": null
+    },
+    {
+      "building_id": 5,
+      "name": "Electronics & Communication Block",
+      "code": "ECE",
+      "latitude": 12.963298,
+      "longitude": 77.506039,
+      "description": "ECE department with electronics, communication, VLSI and embedded systems labs",
+      "floor_count": 3,
+      "facilities": [
+        "Electronics Lab",
+        "Communication Lab",
+        "VLSI Lab",
+        "Embedded Systems Lab",
+        "Classrooms"
+      ],
+      "image_url": null
+    },
+    {
+      "building_id": 6,
+      "name": "Student Cafeteria",
+      "code": "CAF",
+      "latitude": 12.964537,
+      "longitude": 77.505333,
+      "description": "Central cafeteria serving vegetarian food and snacks to students and faculty",
+      "floor_count": 2,
+      "facilities": [
+        "Food Court",
+        "Seating Area",
+        "Canteen",
+        "Snack Counter",
+        "WiFi"
+      ],
+      "image_url": null
+    },
+    {
+      "building_id": 7,
+      "name": "Sports Complex & Indoor Stadium",
+      "code": "SPORTS",
+      "latitude": 12.964951,
+      "longitude": 77.506033,
+      "description": "Indoor sports complex with gymnasium, basketball court and outdoor playgrounds",
+      "floor_count": 2,
+      "facilities": [
+        "Indoor Stadium",
+        "Gymnasium",
+        "Sports Equipment",
+        "Changing Rooms",
+        "Basketball Court"
+      ],
+      "image_url": null
+    },
+    {
+      "building_id": 8,
+      "name": "Mechanical Engineering Block",
+      "code": "MECH",
+      "latitude": 12.964022,
+      "longitude": 77.506649,
+      "description": "Mechanical Engineering department with workshop, CAD lab and thermodynamics facilities",
+      "floor_count": 3,
+      "facilities": [
+        "Workshop",
+        "CAD Lab",
+        "Thermodynamics Lab",
+        "Machine Shop",
+        "Classrooms"
+      ],
+      "image_url": null
+    },
+    {
+      "building_id": 9,
+      "name": "Boys Hostel",
+      "code": "HOSTEL-B",
+      "latitude": 12.965166,
+      "longitude": 77.505364,
+      "description": "Boys hostel with accommodation for 900 students. Includes mess and recreation facilities.",
+      "floor_count": 4,
+      "facilities": [
+        "Rooms",
+        "Common Room",
+        "Mess",
+        "Study Hall",
+        "Recreation Area"
+      ],
+      "image_url": null
+    },
+    {
+      "building_id": 10,
+      "name": "Girls Hostel",
+      "code": "HOSTEL-G",
+      "latitude": 12.964269,
+      "longitude": 77.506232,
+      "description": "Girls hostel with accommodation for 600 students with 24/7 security",
+      "floor_count": 4,
+      "facilities": [
+        "Rooms",
+        "Common Room",
+        "Mess",
+        "Study Hall",
+        "Security"
+      ],
+      "image_url": null
+    },
+    {
+      "building_id": 11,
+      "name": "Auditorium & Seminar Hall",
+      "code": "AUD",
+      "latitude": 12.963459,
+      "longitude": 77.505921,
+      "description": "Main auditorium for events, seminars, cultural activities and placement drives",
+      "floor_count": 2,
+      "facilities": [
+        "Auditorium",
+        "Seminar Halls",
+        "Audio-Visual Equipment",
+        "Stage",
+        "Green Room"
+      ],
+      "image_url": null
+    },
+    {
+      "building_id": 12,
+      "name": "Research & Development Center",
+      "code": "R&D",
+      "latitude": 12.964434,
+      "longitude": 77.506523,
+      "description": "Research center with TEQIP funding for advanced research and development projects",
+      "floor_count": 2,
+      "facilities": [
+        "Research Labs",
+        "Project Rooms",
+        "Conference Room",
+        "Equipment Room",
+        "Faculty Research Area"
+      ],
+      "image_url": null
+    }
+  ],
+  "paths": [],
+  "complaints": [
+    {
+      "complaint_id": 1,
+      "user_id": 2,
+      "title": "WiFi Issues in CSE Lab",
+      "description": "WiFi connection is unstable in CSE Block computer lab.",
+      "category": "Technology",
+      "priority": "high",
+      "status": "in_progress",
+      "building_id": 4,
+      "location_details": null,
+      "image_url": null,
+      "admin_response": "",
+      "created_at": "2025-10-06T04:27:42.083780",
+      "updated_at": "2025-10-06T10:12:16.491187",
+      "resolved_at": null,
+      "building_name": "Computer Science Block"
+    },
+    {
+      "complaint_id": 2,
+      "user_id": 2,
+      "title": "Cleanliness in Cafeteria",
+      "description": "Tables need cleaning during lunch hours.",
+      "category": "Cleanliness",
+      "priority": "medium",
+      "status": "resolved",
+      "building_id": 6,
+      "location_details": null,
+      "image_url": null,
+      "admin_response": null,
+      "created_at": "2025-10-06T04:27:42.083784",
+      "updated_at": "2025-10-10T12:43:12.384530",
+      "resolved_at": "2025-10-10T12:43:12.384489",
+      "building_name": "Student Cafeteria"
+    },
+    {
+      "complaint_id": 3,
+      "user_id": 3,
+      "title": "Lab Equipment Maintenance",
+      "description": "Oscilloscopes in ECE lab need repair.",
+      "category": "Infrastructure",
+      "priority": "high",
+      "status": "in_progress",
+      "building_id": 5,
+      "location_details": null,
+      "image_url": null,
+      "admin_response": null,
+      "created_at": "2025-10-06T04:27:42.083785",
+      "updated_at": "2025-10-10T12:47:40.326807",
+      "resolved_at": null,
+      "building_name": "Electronics & Communication Block"
+    },
+    {
+      "complaint_id": 5,
+      "user_id": 2,
+      "title": "WiFi Not Working in CSE Lab",
+      "description": "Internet connection keeps dropping during lab hours...",
+      "category": "Technology",
+      "priority": "high",
+      "status": "in_progress",
+      "building_id": 4,
+      "location_details": "",
+      "image_url": null,
+      "admin_response": null,
+      "created_at": "2025-10-06T10:08:50.223168",
+      "updated_at": "2025-10-10T12:47:50.683999",
+      "resolved_at": null,
+      "building_name": "Computer Science Block"
+    },
+    {
+      "complaint_id": 4,
+      "user_id": 3,
+      "title": "Library AC Not Working",
+      "description": "AC on 2nd floor not cooling properly.",
+      "category": "Infrastructure",
+      "priority": "medium",
+      "status": "resolved",
+      "building_id": 2,
+      "location_details": null,
+      "image_url": null,
+      "admin_response": null,
+      "created_at": "2025-10-06T04:27:42.083787",
+      "updated_at": "2025-11-16T09:11:07.266828",
+      "resolved_at": "2025-10-16T09:49:16.477206",
+      "building_name": "Central Library"
+    }
+  ],
+  "feedback": [
+    {
+      "feedback_id": 1,
+      "user_id": 2,
+      "facility": "Digital Library",
+      "building_id": 2,
+      "rating": 5,
+      "comments": "Excellent digital library with DELNET access.",
+      "category": "Library",
+      "created_at": "2025-10-06T04:27:42.090678",
+      "building_name": "Central Library"
+    },
+    {
+      "feedback_id": 2,
+      "user_id": 2,
+      "facility": "Computer Lab",
+      "building_id": 4,
+      "rating": 4,
+      "comments": "Good systems, internet needs improvement.",
+      "category": "Laboratory",
+      "created_at": "2025-10-06T04:27:42.090682",
+      "building_name": "Computer Science Block"
+    },
+    {
+      "feedback_id": 3,
+      "user_id": 3,
+      "facility": "Cafeteria Food",
+      "building_id": 6,
+      "rating": 3,
+      "comments": "Food okay, needs more variety.",
+      "category": "Cafeteria",
+      "created_at": "2025-10-06T04:27:42.090682",
+      "building_name": "Student Cafeteria"
+    },
+    {
+      "feedback_id": 4,
+      "user_id": 3,
+      "facility": "Sports Complex",
+      "building_id": 7,
+      "rating": 5,
+      "comments": "Excellent facilities!",
+      "category": "Sports Facility",
+      "created_at": "2025-10-06T04:27:42.090683",
+      "building_name": "Sports Complex & Indoor Stadium"
+    }
+  ],
+  "id_mapping": {}
+}

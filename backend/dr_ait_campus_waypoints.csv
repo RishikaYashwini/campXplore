@@ -1,0 +1,17 @@
+waypoint_id,name,latitude(N),longitude(E),type
+101,Path Int. near Statue,12.96303573,77.50566727,intersection
+102,Main Building Entrance,12.96327132,77.50560313,entrance
+103,Path Int. to Rock Garden & Girls Hostel,12.96386269,77.50535645,intersection
+104,Path Node - Lower Campus,12.96357903,77.50540085,path_node
+105,"Path Int. to Parking, Entrance 1 & Boys Hostel",12.96427617,77.50531204,intersection
+106,Path Int. to Girls Hostel Rd,12.96428098,77.50568207,intersection
+107,Path Node - Rock Garden,12.96404539,77.505613,path_node
+108,Path Node - Girls Hostel Rd,12.96416078,77.50622477,path_node
+109,Path Node - near girls hostel,12.96437714,77.50638265,path_node
+110,Library Main Entrance,12.96469446,77.50546499,entrance
+111,Ashoka Men's Hostel Entrance,12.96514159,77.50549952,entrance
+112,Sports Ground Entrance,12.96568488,77.50564753,entrance
+113,Data Centre Entrance,12.96473292,77.50649119,entrance
+114,Path Int. to MTR,12.96480504,77.50660959,intersection
+115,Path Node - MTR,12.96468965,77.50694015,path_node
+116,Path Int. to PVP,12.96455984,77.5072411,intersection

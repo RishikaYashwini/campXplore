@@ -1,0 +1,663 @@
+/* Complaints System Styling */
+/* Location: src/components/Complaints/Complaints.css */
+
+.complaints-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.complaints-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.complaints-header h1 {
+  font-size: 2rem;
+  color: #2d3748;
+  margin: 0 0 8px 0;
+}
+
+.complaints-header p {
+  color: #718096;
+  margin: 0;
+}
+
+/* Form Card */
+.form-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  padding: 40px;
+  margin-bottom: 30px;
+}
+
+.complaint-form .form-group {
+  margin-bottom: 25px;
+}
+
+.complaint-form label {
+  display: block;
+  margin-bottom: 8px;
+  color: #2d3748;
+  font-weight: 600;
+}
+
+.complaint-form input,
+.complaint-form textarea,
+.complaint-form select {
+  width: 100%;
+  padding: 12px 15px;
+  border: 2px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  font-family: inherit;
+}
+
+.complaint-form input:focus,
+.complaint-form textarea:focus,
+.complaint-form select:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.complaint-form input.error,
+.complaint-form textarea.error,
+.complaint-form select.error {
+  border-color: #e53e3e;
+}
+
+.complaint-form textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.char-count {
+  display: block;
+  text-align: right;
+  font-size: 0.85rem;
+  color: #718096;
+  margin-top: 5px;
+}
+
+.form-actions {
+  display: flex;
+  gap: 15px;
+  justify-content: flex-end;
+  margin-top: 30px;
+}
+
+.form-info {
+  margin-top: 30px;
+  padding: 20px;
+  background: #f7fafc;
+  border-radius: 8px;
+  border-left: 4px solid #667eea;
+}
+
+.form-info h3 {
+  margin: 0 0 15px 0;
+  color: #2d3748;
+}
+
+.form-info ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.form-info li {
+  margin-bottom: 8px;
+  color: #4a5568;
+  line-height: 1.6;
+}
+
+/* Stats Grid */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.stat-card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.stat-icon {
+  font-size: 2.5rem;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.stat-content h3 {
+  font-size: 2rem;
+  color: #2d3748;
+  margin: 0;
+}
+
+.stat-content p {
+  color: #718096;
+  margin: 5px 0 0 0;
+  font-size: 0.9rem;
+}
+
+/* Filters */
+.filters-bar {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.filter-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.filter-group label {
+  font-weight: 600;
+  color: #2d3748;
+}
+
+.filter-group select {
+  padding: 8px 12px;
+  border: 2px solid #e2e8f0;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.filter-results {
+  margin-left: auto;
+  color: #718096;
+  font-size: 0.9rem;
+}
+
+/* Complaints List */
+.complaints-list {
+  display: grid;
+  gap: 20px;
+}
+
+.complaint-card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.complaint-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.complaint-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.complaint-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.complaint-title h3 {
+  margin: 0;
+  color: #2d3748;
+  font-size: 1.2rem;
+}
+
+.complaint-id {
+  font-size: 0.85rem;
+  color: #718096;
+}
+
+.complaint-badges {
+  display: flex;
+  gap: 8px;
+}
+
+.badge {
+  padding: 6px 12px;
+  border-radius: 20px;
+  color: white;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.complaint-meta {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+}
+
+.meta-item {
+  font-size: 0.9rem;
+  color: #4a5568;
+}
+
+.meta-item strong {
+  color: #2d3748;
+  margin-right: 5px;
+}
+
+.complaint-description {
+  color: #4a5568;
+  line-height: 1.6;
+  margin: 15px 0;
+}
+
+.admin-response {
+  background: #f7fafc;
+  padding: 15px;
+  border-radius: 8px;
+  border-left: 4px solid #3498db;
+  margin: 15px 0;
+}
+
+.admin-response strong {
+  display: block;
+  color: #2d3748;
+  margin-bottom: 8px;
+}
+
+.admin-response p {
+  margin: 0;
+  color: #4a5568;
+  line-height: 1.6;
+}
+
+/* Empty State */
+.empty-state {
+  text-align: center;
+  padding: 60px 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.empty-icon {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.empty-state h3 {
+  color: #2d3748;
+  margin: 0 0 10px 0;
+}
+
+.empty-state p {
+  color: #718096;
+  margin: 0 0 25px 0;
+}
+
+/* Modal */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+  padding: 20px;
+}
+
+.modal-content {
+  background: white;
+  border-radius: 12px;
+  max-width: 600px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.modal-header h2 {
+  margin: 0;
+  color: #2d3748;
+}
+
+.modal-close {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: #718096;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.modal-body {
+  padding: 25px;
+}
+
+.detail-row {
+  margin-bottom: 20px;
+}
+
+.detail-row strong {
+  display: block;
+  color: #2d3748;
+  margin-bottom: 8px;
+}
+
+.detail-row p {
+  margin: 0;
+  color: #4a5568;
+  line-height: 1.6;
+}
+
+.detail-row select,
+.detail-row textarea {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #e2e8f0;
+  border-radius: 6px;
+  font-family: inherit;
+}
+
+/* Buttons */
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.btn-primary:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
+.btn-secondary {
+  background: #e2e8f0;
+  color: #2d3748;
+}
+
+.btn-secondary:hover {
+  background: #cbd5e0;
+}
+
+.btn-sm {
+  padding: 8px 16px;
+  font-size: 0.9rem;
+}
+
+.btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.loading {
+  text-align: center;
+  padding: 60px 20px;
+  color: #718096;
+  font-size: 1.1rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .complaints-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .form-card {
+    padding: 25px;
+  }
+
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .filters-bar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .filter-results {
+    margin-left: 0;
+  }
+
+  .complaint-header {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .complaint-meta {
+    flex-direction: column;
+    gap: 8px;
+  }
+}
+
+/* Dark Mode Styles for Complaints */
+.dark-mode .complaints-container {
+  background: #1a202c;
+}
+
+.dark-mode .complaints-header h1 {
+  color: #f7fafc;
+}
+
+.dark-mode .complaints-header p {
+  color: #a0aec0;
+}
+
+.dark-mode .form-card {
+  background: #2d3748;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.dark-mode .complaint-form label {
+  color: #e2e8f0;
+}
+
+.dark-mode .complaint-form input,
+.dark-mode .complaint-form textarea,
+.dark-mode .complaint-form select {
+  background: #1a202c;
+  color: #f7fafc;
+  border-color: #4a5568;
+}
+
+.dark-mode .complaint-form input:focus,
+.dark-mode .complaint-form textarea:focus,
+.dark-mode .complaint-form select:focus {
+  border-color: #667eea;
+}
+
+.dark-mode .char-count {
+  color: #a0aec0;
+}
+
+.dark-mode .form-info {
+  background: #1a202c;
+  border-left-color: #667eea;
+}
+
+.dark-mode .form-info h3 {
+  color: #f7fafc;
+}
+
+.dark-mode .form-info li {
+  color: #cbd5e0;
+}
+
+.dark-mode .stat-card {
+  background: #2d3748;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.dark-mode .stat-content h3 {
+  color: #f7fafc;
+}
+
+.dark-mode .stat-content p {
+  color: #a0aec0;
+}
+
+.dark-mode .filters-bar {
+  background: #2d3748;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.dark-mode .filter-group label {
+  color: #e2e8f0;
+}
+
+.dark-mode .filter-group select {
+  background: #1a202c;
+  color: #f7fafc;
+  border-color: #4a5568;
+}
+
+.dark-mode .filter-results {
+  color: #a0aec0;
+}
+
+.dark-mode .complaint-card {
+  background: #2d3748;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.dark-mode .complaint-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.dark-mode .complaint-title h3 {
+  color: #f7fafc;
+}
+
+.dark-mode .complaint-id {
+  color: #a0aec0;
+}
+
+.dark-mode .meta-item {
+  color: #cbd5e0;
+}
+
+.dark-mode .meta-item strong {
+  color: #e2e8f0;
+}
+
+.dark-mode .complaint-description {
+  color: #cbd5e0;
+}
+
+.dark-mode .admin-response {
+  background: #1a202c;
+  border-left-color: #3498db;
+}
+
+.dark-mode .admin-response strong {
+  color: #f7fafc;
+}
+
+.dark-mode .admin-response p {
+  color: #cbd5e0;
+}
+
+.dark-mode .empty-state {
+  background: #2d3748;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.dark-mode .empty-state h3 {
+  color: #f7fafc;
+}
+
+.dark-mode .empty-state p {
+  color: #a0aec0;
+}
+
+.dark-mode .modal-content {
+  background: #2d3748;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.dark-mode .modal-header {
+  border-bottom-color: #4a5568;
+}
+
+.dark-mode .modal-header h2 {
+  color: #f7fafc;
+}
+
+.dark-mode .modal-close {
+  color: #a0aec0;
+}
+
+.dark-mode .detail-row strong {
+  color: #e2e8f0;
+}
+
+.dark-mode .detail-row p {
+  color: #cbd5e0;
+}
+
+.dark-mode .detail-row select,
+.dark-mode .detail-row textarea {
+  background: #1a202c;
+  color: #f7fafc;
+  border-color: #4a5568;
+}
+
+.dark-mode .btn-secondary {
+  background: #4a5568;
+  color: #f7fafc;
+}
+
+.dark-mode .btn-secondary:hover {
+  background: #718096;
+}
