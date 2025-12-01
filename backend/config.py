@@ -43,8 +43,26 @@ class DevelopmentConfig(Config):
 
 class ProductionConfig(Config):
     """Production configuration"""
+    FLASK_ENV = 'production'
     DEBUG = False
+    TESTING = False
     # In production, always set SECRET_KEY via environment variable
+    # === SESSION/COOKIE FIX FOR DEPLOYMENT ===
+    # 1. Forces cookie to be sent only over HTTPS (Render uses HTTPS)
+    SESSION_COOKIE_SECURE = True 
+
+    # 2. Helps mitigate CSRF; 'Lax' allows cookie sending during cross-site top-level navigation,
+    #    which is crucial for APIs hosted on a separate subdomain from the frontend.
+    SESSION_COOKIE_SAMESITE = 'Lax' 
+    
+    # 3. Prevents client-side JS from accessing the cookie (security standard)
+    SESSION_COOKIE_HTTPONLY = True 
+    
+    # 4. Optional: Give the session cookie a unique name
+    SESSION_COOKIE_NAME = 'campXploreSession' 
+
+    # Database URL is read from environment variables, not hardcoded here
+    SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL')
 
 
 class TestingConfig(Config):
