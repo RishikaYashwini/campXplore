@@ -11,7 +11,7 @@ from extensions import db, init_extensions
 from sqlalchemy import text
 from routes import all_blueprints
 from models.waypoint import Waypoint
-
+from flask_cors import CORS
 
 def create_app(config_name='development'):
     """Application factory pattern"""
@@ -22,6 +22,13 @@ def create_app(config_name='development'):
     # Load configuration
     app.config.from_object(get_config(config_name))
 
+    # --- 🔑 CRITICAL CORS CONFIGURATION ---
+    FRONTEND_URL = os.environ.get('FRONTEND_URL', 'https://campxplore.onrender.com') 
+    
+    # Initialize CORS with credentials support for the /api routes
+    CORS(app, resources={r"/api/*": {"origins": FRONTEND_URL, "supports_credentials": True}})
+    # -----------------------------------------
+    
     # Initialize extensions
     init_extensions(app)
 

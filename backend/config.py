@@ -51,9 +51,9 @@ class ProductionConfig(Config):
     # 1. Forces cookie to be sent only over HTTPS (Render uses HTTPS)
     SESSION_COOKIE_SECURE = True 
 
-    # 2. Helps mitigate CSRF; 'Lax' allows cookie sending during cross-site top-level navigation,
+    SECRET_KEY = os.environ.get('SECRET_KEY') or 'A_REALLY_HARD_TO_GUESS_SECRET'
     #    which is crucial for APIs hosted on a separate subdomain from the frontend.
-    SESSION_COOKIE_SAMESITE = 'Lax' 
+    SESSION_COOKIE_SAMESITE = 'None' 
     
     # 3. Prevents client-side JS from accessing the cookie (security standard)
     SESSION_COOKIE_HTTPONLY = True 
