@@ -7,7 +7,7 @@ Werkzeug==2.3.7
 
 # Database
 Flask-SQLAlchemy==3.0.5
-psycopg2-binary==2.9.7
+psycopg2-binary==2.9.6
 
 # CORS Support
 Flask-CORS==4.0.0
